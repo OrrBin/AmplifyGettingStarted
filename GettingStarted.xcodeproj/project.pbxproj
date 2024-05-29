@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E52CA82F0D2625363C6DC9 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C52EE9D3594EB4E5E0EA3AE /* awsconfiguration.json */; };
+		1B1163DC6CCB70EF3A4FEDAF /* Note+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9778D83C156E246D6DB6D73E /* Note+Schema.swift */; };
+		69C29A6D85AB4AA49570C3C5 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AF6710ACC41ABB247E1170F1 /* amplifyconfiguration.json */; };
+		C343121BD1329958F84F5910 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696CCB6AE203439EFA53A868 /* Note.swift */; };
+		C50D8DD761FAAC0DA81F9EA3 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEBA923C1BCA682D97A51F6 /* AmplifyModels.swift */; };
 		E83255FF2C062DF50086BE94 /* GettingStartedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83255FE2C062DF50086BE94 /* GettingStartedApp.swift */; };
-		E83256012C062DF50086BE94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83256002C062DF50086BE94 /* ContentView.swift */; };
 		E83256032C062DF60086BE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83256022C062DF60086BE94 /* Assets.xcassets */; };
 		E83256062C062DF60086BE94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83256052C062DF60086BE94 /* Preview Assets.xcassets */; };
 		E83256102C062DF60086BE94 /* GettingStartedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E832560F2C062DF60086BE94 /* GettingStartedTests.swift */; };
 		E832561A2C062DF60086BE94 /* GettingStartedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83256192C062DF60086BE94 /* GettingStartedUITests.swift */; };
 		E832561C2C062DF60086BE94 /* GettingStartedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E832561B2C062DF60086BE94 /* GettingStartedUITestsLaunchTests.swift */; };
+		E832562B2C062E670086BE94 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E832562A2C062E670086BE94 /* NoteView.swift */; };
+		E832562D2C062EB20086BE94 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E832562C2C062EB20086BE94 /* NotesView.swift */; };
+		E83256302C0668400086BE94 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = E832562F2C0668400086BE94 /* Amplify */; };
+		E83256332C066D8C0086BE94 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = E83256322C066D8C0086BE94 /* AWSCognitoAuthPlugin */; };
+		E83256362C066DFB0086BE94 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83256352C066DFB0086BE94 /* AuthenticationService.swift */; };
+		E83256382C066E490086BE94 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83256372C066E490086BE94 /* LandingView.swift */; };
+		E832563A2C0674330086BE94 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = E83256392C0674330086BE94 /* AWSAPIPlugin */; };
+		E832563C2C0674C00086BE94 /* NotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E832563B2C0674C00086BE94 /* NotesService.swift */; };
+		E832563E2C06759F0086BE94 /* SaveNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E832563D2C06759F0086BE94 /* SaveNoteView.swift */; };
+		E83256402C0677C30086BE94 /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = E832563F2C0677C30086BE94 /* AWSS3StoragePlugin */; };
+		E83256422C0677FC0086BE94 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83256412C0677FC0086BE94 /* StorageService.swift */; };
+		E83256442C06786E0086BE94 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83256432C06786E0086BE94 /* RemoteImage.swift */; };
+		E83256462C0679150086BE94 /* PicturePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83256452C0679150086BE94 /* PicturePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DEBA923C1BCA682D97A51F6 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		4C52EE9D3594EB4E5E0EA3AE /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		696CCB6AE203439EFA53A868 /* Note.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Note.swift; path = amplify/generated/models/Note.swift; sourceTree = "<group>"; };
+		9778D83C156E246D6DB6D73E /* Note+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Note+Schema.swift"; path = "amplify/generated/models/Note+Schema.swift"; sourceTree = "<group>"; };
+		AF6710ACC41ABB247E1170F1 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		E83255FB2C062DF50086BE94 /* GettingStarted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingStarted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83255FE2C062DF50086BE94 /* GettingStartedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedApp.swift; sourceTree = "<group>"; };
-		E83256002C062DF50086BE94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E83256022C062DF60086BE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E83256052C062DF60086BE94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E832560B2C062DF60086BE94 /* GettingStartedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GettingStartedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +65,16 @@
 		E83256152C062DF60086BE94 /* GettingStartedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GettingStartedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83256192C062DF60086BE94 /* GettingStartedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedUITests.swift; sourceTree = "<group>"; };
 		E832561B2C062DF60086BE94 /* GettingStartedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E832562A2C062E670086BE94 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		E832562C2C062EB20086BE94 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		E83256342C066DA20086BE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E83256352C066DFB0086BE94 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		E83256372C066E490086BE94 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		E832563B2C0674C00086BE94 /* NotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesService.swift; sourceTree = "<group>"; };
+		E832563D2C06759F0086BE94 /* SaveNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveNoteView.swift; sourceTree = "<group>"; };
+		E83256412C0677FC0086BE94 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		E83256432C06786E0086BE94 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		E83256452C0679150086BE94 /* PicturePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E832563A2C0674330086BE94 /* AWSAPIPlugin in Frameworks */,
+				E83256302C0668400086BE94 /* Amplify in Frameworks */,
+				E83256332C066D8C0086BE94 /* AWSCognitoAuthPlugin in Frameworks */,
+				E83256402C0677C30086BE94 /* AWSS3StoragePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B124DB7A2E8B5A3026C9B153 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				4C52EE9D3594EB4E5E0EA3AE /* awsconfiguration.json */,
+				AF6710ACC41ABB247E1170F1 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
 		E83255F22C062DF50086BE94 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +122,9 @@
 				E832560E2C062DF60086BE94 /* GettingStartedTests */,
 				E83256182C062DF60086BE94 /* GettingStartedUITests */,
 				E83255FC2C062DF50086BE94 /* Products */,
+				B124DB7A2E8B5A3026C9B153 /* AmplifyConfig */,
+				E83256312C066D8C0086BE94 /* Frameworks */,
+				F380BA41B0DF283EA2778E3C /* AmplifyModels */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +141,19 @@
 		E83255FD2C062DF50086BE94 /* GettingStarted */ = {
 			isa = PBXGroup;
 			children = (
+				E83256342C066DA20086BE94 /* Info.plist */,
 				E83255FE2C062DF50086BE94 /* GettingStartedApp.swift */,
-				E83256002C062DF50086BE94 /* ContentView.swift */,
+				E83256452C0679150086BE94 /* PicturePicker.swift */,
+				E832563D2C06759F0086BE94 /* SaveNoteView.swift */,
+				E832563B2C0674C00086BE94 /* NotesService.swift */,
+				E83256352C066DFB0086BE94 /* AuthenticationService.swift */,
+				E83256372C066E490086BE94 /* LandingView.swift */,
+				E832562A2C062E670086BE94 /* NoteView.swift */,
+				E832562C2C062EB20086BE94 /* NotesView.swift */,
 				E83256022C062DF60086BE94 /* Assets.xcassets */,
 				E83256042C062DF60086BE94 /* Preview Content */,
+				E83256412C0677FC0086BE94 /* StorageService.swift */,
+				E83256432C06786E0086BE94 /* RemoteImage.swift */,
 			);
 			path = GettingStarted;
 			sourceTree = "<group>";
@@ -127,6 +183,23 @@
 			path = GettingStartedUITests;
 			sourceTree = "<group>";
 		};
+		E83256312C066D8C0086BE94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F380BA41B0DF283EA2778E3C /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				1DEBA923C1BCA682D97A51F6 /* AmplifyModels.swift */,
+				9778D83C156E246D6DB6D73E /* Note+Schema.swift */,
+				696CCB6AE203439EFA53A868 /* Note.swift */,
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +216,12 @@
 			dependencies = (
 			);
 			name = GettingStarted;
+			packageProductDependencies = (
+				E832562F2C0668400086BE94 /* Amplify */,
+				E83256322C066D8C0086BE94 /* AWSCognitoAuthPlugin */,
+				E83256392C0674330086BE94 /* AWSAPIPlugin */,
+				E832563F2C0677C30086BE94 /* AWSS3StoragePlugin */,
+			);
 			productName = GettingStarted;
 			productReference = E83255FB2C062DF50086BE94 /* GettingStarted.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +294,9 @@
 				Base,
 			);
 			mainGroup = E83255F22C062DF50086BE94;
+			packageReferences = (
+				E832562E2C0668400086BE94 /* XCRemoteSwiftPackageReference "amplify-swift" */,
+			);
 			productRefGroup = E83255FC2C062DF50086BE94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +315,8 @@
 			files = (
 				E83256062C062DF60086BE94 /* Preview Assets.xcassets in Resources */,
 				E83256032C062DF60086BE94 /* Assets.xcassets in Resources */,
+				04E52CA82F0D2625363C6DC9 /* awsconfiguration.json in Resources */,
+				69C29A6D85AB4AA49570C3C5 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +341,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E83256012C062DF50086BE94 /* ContentView.swift in Sources */,
+				E83256382C066E490086BE94 /* LandingView.swift in Sources */,
 				E83255FF2C062DF50086BE94 /* GettingStartedApp.swift in Sources */,
+				E832562D2C062EB20086BE94 /* NotesView.swift in Sources */,
+				E83256442C06786E0086BE94 /* RemoteImage.swift in Sources */,
+				E832562B2C062E670086BE94 /* NoteView.swift in Sources */,
+				E83256362C066DFB0086BE94 /* AuthenticationService.swift in Sources */,
+				C50D8DD761FAAC0DA81F9EA3 /* AmplifyModels.swift in Sources */,
+				E832563C2C0674C00086BE94 /* NotesService.swift in Sources */,
+				E83256462C0679150086BE94 /* PicturePicker.swift in Sources */,
+				E832563E2C06759F0086BE94 /* SaveNoteView.swift in Sources */,
+				1B1163DC6CCB70EF3A4FEDAF /* Note+Schema.swift in Sources */,
+				E83256422C0677FC0086BE94 /* StorageService.swift in Sources */,
+				C343121BD1329958F84F5910 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +520,7 @@
 				DEVELOPMENT_TEAM = WNX8AM96BD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GettingStarted/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +550,7 @@
 				DEVELOPMENT_TEAM = WNX8AM96BD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GettingStarted/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +685,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E832562E2C0668400086BE94 /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.34.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E832562F2C0668400086BE94 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E832562E2C0668400086BE94 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+		E83256322C066D8C0086BE94 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E832562E2C0668400086BE94 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		E83256392C0674330086BE94 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E832562E2C0668400086BE94 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+		E832563F2C0677C30086BE94 /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E832562E2C0668400086BE94 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSS3StoragePlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E83255F32C062DF50086BE94 /* Project object */;
 }
