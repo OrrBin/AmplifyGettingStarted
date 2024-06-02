@@ -7,7 +7,7 @@
             "UserPoolId"
           ],
           "category": "auth",
-          "resourceName": "gettingstarted15884a3e"
+          "resourceName": "gettingstarteda1647ab1"
         }
       ],
       "output": {
@@ -16,7 +16,7 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "authgettingstarted15884a3e"
+              "userPoolId": "authgettingstarteda1647ab1"
             }
           }
         }
@@ -26,7 +26,7 @@
     }
   },
   "auth": {
-    "gettingstarted15884a3e": {
+    "gettingstarteda1647ab1": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {

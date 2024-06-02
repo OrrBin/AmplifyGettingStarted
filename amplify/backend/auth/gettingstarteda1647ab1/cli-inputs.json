@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "gettingstarted15884a3e_identitypool_15884a3e",
+    "identityPoolName": "gettingstarteda1647ab1_identitypool_a1647ab1",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "gettin15884a3e",
-    "userPoolName": "gettingstarted15884a3e_userpool_15884a3e",
+    "resourceNameTruncated": "gettina1647ab1",
+    "userPoolName": "gettingstarteda1647ab1_userpool_a1647ab1",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,35 +31,20 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "gettin15884a3e_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "gettina1647ab1_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "15884a3e",
-    "resourceName": "gettingstarted15884a3e",
+    "sharedId": "a1647ab1",
+    "resourceName": "gettingstarteda1647ab1",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "defaultSocial",
-    "userPoolGroupList": [],
-    "serviceName": "Cognito",
-    "usernameCaseSensitive": false,
-    "useEnabledMfas": true,
-    "authRoleArn": {
-      "Fn::GetAtt": [
-        "AuthRole",
-        "Arn"
-      ]
-    },
-    "unauthRoleArn": {
-      "Fn::GetAtt": [
-        "UnauthRole",
-        "Arn"
-      ]
-    },
-    "breakCircularDependency": true,
-    "dependsOn": [],
     "hostedUI": true,
-    "hostedUIDomainName": "gettingstarted9781be9d-9781be9d",
+    "hostedUIDomainName": "gettingstarteda1647ab1-a1647ab1",
     "authProvidersUserPool": [],
     "hostedUIProviderMeta": "[]",
     "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"gettingstarted://\"],\"LogoutURLs\":[\"gettingstarted://\"]}",
-    "authProviders": []
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
   }
 }
