@@ -13,7 +13,14 @@ import SwiftUI
 
 @main
 struct GettingStartedApp: App {
+    // Integrate AppDelegate
+    @UIApplicationDelegateAdaptor(NotificationsDelegate.self) var notificationsDelegate
+    
+    let notificationsService = NotificationsService()
+    
     init() {
+        notificationsDelegate.notificationsService = notificationsService
+        
         do {
             try Amplify.add(plugin: AWSCognitoAuthPlugin())
             try Amplify.add(plugin: AWSAPIPlugin(modelRegistration: AmplifyModels()))
@@ -29,7 +36,9 @@ struct GettingStartedApp: App {
         WindowGroup {
             LandingView()
                 .environmentObject(NotesService())
+                .environmentObject(ContactsService())
                 .environmentObject(AuthenticationService())
+                .environmentObject(notificationsService)
                 .environmentObject(StorageService())
         }
     }

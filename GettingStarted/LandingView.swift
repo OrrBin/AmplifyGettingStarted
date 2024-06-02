@@ -19,7 +19,7 @@ struct LandingView: View {
             }
             Group {
                 if authenticationService.isSignedIn {
-                    NotesView()
+                    ContactsView()
                 } else {
                     Button("Sign in") {
                         Task {

@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		04E52CA82F0D2625363C6DC9 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C52EE9D3594EB4E5E0EA3AE /* awsconfiguration.json */; };
+		07D48756096909C6E0DD8AFB /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133504C0F41F81177878DD92 /* Contact.swift */; };
+		11AFD30952FDD0D924812BFE /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8655CB171EB23738D4B265 /* Period.swift */; };
 		1B1163DC6CCB70EF3A4FEDAF /* Note+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9778D83C156E246D6DB6D73E /* Note+Schema.swift */; };
+		54E93D3DA48D76D35F038902 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696CCB6AE203439EFA53A868 /* Note.swift */; };
 		69C29A6D85AB4AA49570C3C5 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AF6710ACC41ABB247E1170F1 /* amplifyconfiguration.json */; };
+		6EFDB085750CF9B5686E4729 /* Contact+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71840DC96238E826ACCD8BAD /* Contact+Schema.swift */; };
+		7A2B27D6E3F1DF762626B827 /* Note+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9778D83C156E246D6DB6D73E /* Note+Schema.swift */; };
+		BACF61F6571A161A8EEEC8E9 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8655CB171EB23738D4B265 /* Period.swift */; };
 		C343121BD1329958F84F5910 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696CCB6AE203439EFA53A868 /* Note.swift */; };
 		C50D8DD761FAAC0DA81F9EA3 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEBA923C1BCA682D97A51F6 /* AmplifyModels.swift */; };
 		E83255FF2C062DF50086BE94 /* GettingStartedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83255FE2C062DF50086BE94 /* GettingStartedApp.swift */; };
@@ -31,6 +37,12 @@
 		E83256422C0677FC0086BE94 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83256412C0677FC0086BE94 /* StorageService.swift */; };
 		E83256442C06786E0086BE94 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83256432C06786E0086BE94 /* RemoteImage.swift */; };
 		E83256462C0679150086BE94 /* PicturePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83256452C0679150086BE94 /* PicturePicker.swift */; };
+		E8B94A692C0D01030068598C /* UNUserNotificationCenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B94A682C0D01030068598C /* UNUserNotificationCenterDelegate.swift */; };
+		E8B94A6B2C0D02A90068598C /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B94A6A2C0D02A90068598C /* NotificationService.swift */; };
+		E8B94A6D2C0D0F5F0068598C /* ContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B94A6C2C0D0F5F0068598C /* ContactsService.swift */; };
+		E8B94A6F2C0D10AE0068598C /* SaveContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B94A6E2C0D10AE0068598C /* SaveContactView.swift */; };
+		E8B94A712C0D12A50068598C /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B94A702C0D12A50068598C /* ContactsView.swift */; };
+		E8B94A752C0D133D0068598C /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B94A742C0D133D0068598C /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +63,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		133504C0F41F81177878DD92 /* Contact.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Contact.swift; path = amplify/generated/models/Contact.swift; sourceTree = "<group>"; };
 		1DEBA923C1BCA682D97A51F6 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		2D8655CB171EB23738D4B265 /* Period.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Period.swift; path = amplify/generated/models/Period.swift; sourceTree = "<group>"; };
 		4C52EE9D3594EB4E5E0EA3AE /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		696CCB6AE203439EFA53A868 /* Note.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Note.swift; path = amplify/generated/models/Note.swift; sourceTree = "<group>"; };
+		71840DC96238E826ACCD8BAD /* Contact+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Contact+Schema.swift"; path = "amplify/generated/models/Contact+Schema.swift"; sourceTree = "<group>"; };
 		9778D83C156E246D6DB6D73E /* Note+Schema.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "Note+Schema.swift"; path = "amplify/generated/models/Note+Schema.swift"; sourceTree = "<group>"; };
 		AF6710ACC41ABB247E1170F1 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		E83255FB2C062DF50086BE94 /* GettingStarted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingStarted.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +90,12 @@
 		E83256412C0677FC0086BE94 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		E83256432C06786E0086BE94 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		E83256452C0679150086BE94 /* PicturePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturePicker.swift; sourceTree = "<group>"; };
+		E8B94A682C0D01030068598C /* UNUserNotificationCenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNUserNotificationCenterDelegate.swift; sourceTree = "<group>"; };
+		E8B94A6A2C0D02A90068598C /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		E8B94A6C2C0D0F5F0068598C /* ContactsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsService.swift; sourceTree = "<group>"; };
+		E8B94A6E2C0D10AE0068598C /* SaveContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveContactView.swift; sourceTree = "<group>"; };
+		E8B94A702C0D12A50068598C /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		E8B94A742C0D133D0068598C /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,15 +166,21 @@
 				E83255FE2C062DF50086BE94 /* GettingStartedApp.swift */,
 				E83256452C0679150086BE94 /* PicturePicker.swift */,
 				E832563D2C06759F0086BE94 /* SaveNoteView.swift */,
+				E8B94A6E2C0D10AE0068598C /* SaveContactView.swift */,
 				E832563B2C0674C00086BE94 /* NotesService.swift */,
 				E83256352C066DFB0086BE94 /* AuthenticationService.swift */,
 				E83256372C066E490086BE94 /* LandingView.swift */,
 				E832562A2C062E670086BE94 /* NoteView.swift */,
 				E832562C2C062EB20086BE94 /* NotesView.swift */,
+				E8B94A702C0D12A50068598C /* ContactsView.swift */,
 				E83256022C062DF60086BE94 /* Assets.xcassets */,
 				E83256042C062DF60086BE94 /* Preview Content */,
 				E83256412C0677FC0086BE94 /* StorageService.swift */,
+				E8B94A742C0D133D0068598C /* ContactView.swift */,
 				E83256432C06786E0086BE94 /* RemoteImage.swift */,
+				E8B94A682C0D01030068598C /* UNUserNotificationCenterDelegate.swift */,
+				E8B94A6A2C0D02A90068598C /* NotificationService.swift */,
+				E8B94A6C2C0D0F5F0068598C /* ContactsService.swift */,
 			);
 			path = GettingStarted;
 			sourceTree = "<group>";
@@ -196,6 +223,9 @@
 				1DEBA923C1BCA682D97A51F6 /* AmplifyModels.swift */,
 				9778D83C156E246D6DB6D73E /* Note+Schema.swift */,
 				696CCB6AE203439EFA53A868 /* Note.swift */,
+				2D8655CB171EB23738D4B265 /* Period.swift */,
+				71840DC96238E826ACCD8BAD /* Contact+Schema.swift */,
+				133504C0F41F81177878DD92 /* Contact.swift */,
 			);
 			name = AmplifyModels;
 			sourceTree = "<group>";
@@ -344,16 +374,28 @@
 				E83256382C066E490086BE94 /* LandingView.swift in Sources */,
 				E83255FF2C062DF50086BE94 /* GettingStartedApp.swift in Sources */,
 				E832562D2C062EB20086BE94 /* NotesView.swift in Sources */,
+				E8B94A752C0D133D0068598C /* ContactView.swift in Sources */,
 				E83256442C06786E0086BE94 /* RemoteImage.swift in Sources */,
+				E8B94A692C0D01030068598C /* UNUserNotificationCenterDelegate.swift in Sources */,
 				E832562B2C062E670086BE94 /* NoteView.swift in Sources */,
 				E83256362C066DFB0086BE94 /* AuthenticationService.swift in Sources */,
 				C50D8DD761FAAC0DA81F9EA3 /* AmplifyModels.swift in Sources */,
+				E8B94A6F2C0D10AE0068598C /* SaveContactView.swift in Sources */,
+				E8B94A6D2C0D0F5F0068598C /* ContactsService.swift in Sources */,
 				E832563C2C0674C00086BE94 /* NotesService.swift in Sources */,
 				E83256462C0679150086BE94 /* PicturePicker.swift in Sources */,
 				E832563E2C06759F0086BE94 /* SaveNoteView.swift in Sources */,
 				1B1163DC6CCB70EF3A4FEDAF /* Note+Schema.swift in Sources */,
 				E83256422C0677FC0086BE94 /* StorageService.swift in Sources */,
+				E8B94A712C0D12A50068598C /* ContactsView.swift in Sources */,
+				E8B94A6B2C0D02A90068598C /* NotificationService.swift in Sources */,
 				C343121BD1329958F84F5910 /* Note.swift in Sources */,
+				BACF61F6571A161A8EEEC8E9 /* Period.swift in Sources */,
+				6EFDB085750CF9B5686E4729 /* Contact+Schema.swift in Sources */,
+				07D48756096909C6E0DD8AFB /* Contact.swift in Sources */,
+				7A2B27D6E3F1DF762626B827 /* Note+Schema.swift in Sources */,
+				54E93D3DA48D76D35F038902 /* Note.swift in Sources */,
+				11AFD30952FDD0D924812BFE /* Period.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

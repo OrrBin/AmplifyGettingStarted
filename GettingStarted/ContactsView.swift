@@ -1,42 +1,42 @@
 //
-//  NotesView.swift
+//  ContactsView.swift
 //  GettingStarted
 //
-//  Created by Benyamini, Orr on 28/05/2024.
+//  Created by Benyamini, Orr on 02/06/2024.
 //
 
 import UserNotifications
 import SwiftUI
 
-struct NotesView: View {
+struct ContactsView: View {
     @EnvironmentObject private var authenticationService: AuthenticationService
     @EnvironmentObject private var notificationsService: NotificationsService
-    @EnvironmentObject private var notesService: NotesService
+    @EnvironmentObject private var contactsService: ContactsService
     @EnvironmentObject private var storageService: StorageService
-    @State private var isSavingNote = false
+    @State private var isSavingContact = false
 
     var body: some View {
         NavigationStack{
             List {
-                if notesService.notes.isEmpty {
-                    Text("No notes")
+                if contactsService.contacts.isEmpty {
+                    Text("No contacts")
                 }
-                ForEach(notesService.notes, id: \.id) { note in
-                    NoteView(note: note)
+                ForEach(contactsService.contacts, id: \.id) { contact in
+                    ContactView(contact: contact)
                 }
                 .onDelete { indices in
                     for index in indices {
-                        let note = notesService.notes[index]
+                        let contact = contactsService.contacts[index]
                         Task {
-                            await notesService.delete(note)
-                            if let image = note.image {
+                            await contactsService.delete(contact)
+                            if let image = contact.image {
                                 await storageService.remove(withName: image)
                             }
                         }
                     }
                 }
             }
-            .navigationTitle("Notes")
+            .navigationTitle("Contacts")
             .toolbar {
                 Button("Sign Out") {
                     Task {
@@ -57,18 +57,18 @@ struct NotesView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .bottomBar) {
-                    Button("⨁ New Note") {
-                        isSavingNote = true
+                    Button("⨁ New Contact") {
+                        isSavingContact = true
                     }
                     .bold()
                 }
             }
-            .sheet(isPresented: $isSavingNote) {
-                SaveNoteView()
+            .sheet(isPresented: $isSavingContact) {
+                SaveContactView()
             }
         }
         .task {
-            await notesService.fetchNotes()
+            await contactsService.fetchContacts()
         }
     }
 }

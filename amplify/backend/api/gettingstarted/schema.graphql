@@ -6,3 +6,21 @@ type Note
     description: String
     image: String
 }
+
+enum Period {
+  WEEKLY
+  MONTHLY
+  BI_WEEKLY
+}
+
+type Contact
+@model
+@auth (rules: [ { allow: owner } ]) {
+    id: ID!
+    name: String!
+    notificationPeriod: Period!
+    nextNotification: AWSDateTime
+    lastNotification: AWSDateTime
+    image: String
+}
+
